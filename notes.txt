@@ -1,0 +1,14 @@
+Ways to check for outliers:
+- scatter plots
+- checking their zscore with stats.zscore()
+
+NaN values:
+- fill with suitable value for each column
+- drop columns which mostly are NaN values
+
+Feature engineering:
+- 'total<things>' from various features like (floor bathrooms and basement bathrooms) //you can drop columns after//
+
+
+Check correlation:
+- if two features are highly correlated, you can drop one (the least correlated with the target or the rest of features)
